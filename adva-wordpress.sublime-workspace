@@ -7,19 +7,11 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 71.0,
+		"height": 49.0,
 		"selected_items":
 		[
 			[
@@ -63,7 +55,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 552.0
+		"width": 561.0
 	},
 	"console":
 	{
@@ -80,6 +72,12 @@
 	},
 	"file_history":
 	[
+		"/Users/lane/bin/adva-wordpress/wp-content/themes/twentyfourteen/functions.php",
+		"/Users/lane/bin/adva-wordpress/tmp/google_geocoding.md",
+		"/Users/lane/bin/adva-wordpress/tmp/todo.md",
+		"/Users/lane/bin/adva-wordpress/tmp/test3.html",
+		"/Users/lane/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lane/Documents/Learning/git.md",
 		"/Users/lane/bin/tecportal/tmp/cache/sass/40e1146ad30096b06881d4a305b2a427fb37186c/variables.scssc",
 		"/Users/lane/bin/tecportal/config/routes.rb",
 		"/Users/lane/bin/tecportal/app/views/shared/_pluginlist.html.erb",
@@ -146,7 +144,6 @@
 		"/Users/lane/bin/tecportal/app/views/plugin_fmc/create_export.html.erb",
 		"/Users/lane/bin/tecportal/Procfile",
 		"/Users/lane/bin/tecportal/app/helpers/plugin_service_master_helper.rb",
-		"/Users/lane/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/lane/bin/tecportal/app/views/plugin_service_master/_legend.html.erb",
 		"/Users/lane/bin/tecportal/app/assets/stylesheets/application/header.css.scss",
 		"/Users/lane/bin/tecportal/app/assets/stylesheets/application/_base.css.scss",
@@ -202,12 +199,7 @@
 		"/Users/lane/bin/tecportal/app/views/plugin_service_master/get_cust_list.html.erb",
 		"/Users/lane/bin/tecportal/app/assets/stylesheets/plugin_fmc.css.scss",
 		"/Users/lane/bin/tecportal/tecportal.sublime-project",
-		"/Users/lane/bin/tecportal/tecportal.sublime-workspace",
-		"/Users/lane/bin/tecportal/app/assets/stylesheets/home.css.scss",
-		"/Users/lane/Library/Application Support/Sublime Text 2/Packages/New TmThemes/Obsidian.tmTheme",
-		"/Users/lane/Library/Application Support/Sublime Text 2/Packages/New TmThemes/Obsidian.tmTheme.chback",
-		"/Users/lane/Library/Application Support/Sublime Text 2/Packages/New TmThemes/Obsidian.tmTheme.cache",
-		"/Users/lane/bin/adva-store/layout/theme.liquid"
+		"/Users/lane/bin/tecportal/tecportal.sublime-workspace"
 	],
 	"find":
 	{
@@ -239,6 +231,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"egg",
+			"basket",
 			"session",
 			"Session",
 			"response.body",
@@ -364,9 +358,7 @@
 			"updateCustPattern",
 			"focus",
 			"log 'cw",
-			"log",
-			"\\%\\.get",
-			"%.get"
+			"log"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -512,35 +504,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

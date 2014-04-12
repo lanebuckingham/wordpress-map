@@ -523,3 +523,9 @@ if ( ! class_exists( 'Featured_Content' ) && 'plugins.php' !== $GLOBALS['pagenow
 	require get_template_directory() . '/inc/featured-content.php';
 }
 
+add_action('wp_head', 'your_function_name');
+
+function your_function_name() {
+    echo '<meta name="description" content="This is the meta description for this page." />' . "
+";
+}
