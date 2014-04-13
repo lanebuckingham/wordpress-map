@@ -2,8 +2,10 @@ Need to:
 
 # Checkout Page:
 
-    - Write code to perform a geocoding request when a user creates a new shipping address
-    - Write code to store geocoding data in our WordPress database (custom table or custom post type?)
+    * Write code to perform a geocoding request when a user creates a 
+        new shipping address
+    * Write code to store geocoding data in our WordPress database 
+        (custom table or custom post type?)
 
 ## Here's an example of retrieving order data from a WooCommerce database:
 
@@ -32,12 +34,19 @@ Need to:
      $order->populate($customer_order);
      $orderdata = (array) $order;
 
-     // $orderdata Array will have Information. for e.g Shippin firstname, Lastname, Address ... and MUCH more.... Just enjoy!
+     // $orderdata Array will have Information. 
+     // ex: Shipping firstname, Lastname, Address ... etc ...
     }
 
 # Map Page:
 
-    - Get the geocodes from the database
-    - Turn them into Google markers
-    - Load up the Google Marker Clusterer V3 with the markers
+    * Get the geocodes from the database
+    * Turn them into Google markers
+    * Load up the Google Marker Clusterer V3 with the markers
 
+# Matt says: 
+
+    * Learn all about how to make WordPress plugins.  This is your area 
+        of development / expertise on this project.
+    * Learn how to make an admin setup screen for your plugin(s), 
+        that will get added to the left menu in WordPress Admin for the site.

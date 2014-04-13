@@ -72,9 +72,9 @@
 	},
 	"file_history":
 	[
+		"/Users/lane/bin/adva-wordpress/tmp/todo.md",
 		"/Users/lane/bin/adva-wordpress/wp-content/themes/twentyfourteen/functions.php",
 		"/Users/lane/bin/adva-wordpress/tmp/google_geocoding.md",
-		"/Users/lane/bin/adva-wordpress/tmp/todo.md",
 		"/Users/lane/bin/adva-wordpress/tmp/test3.html",
 		"/Users/lane/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/lane/Documents/Learning/git.md",
@@ -207,7 +207,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 95.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"~/bin/tecportal",
