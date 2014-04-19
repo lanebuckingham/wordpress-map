@@ -529,3 +529,26 @@ function your_function_name() {
     echo '<meta name="description" content="This is the meta description for this page." />' . "
 ";
 }
+
+
+add_action( 'woocommerce_thankyou', 'my_function' );
+/*
+ * Do something after WooCommerce sets an order on completed
+ */
+function my_function($order_id) {
+	
+	// get the order
+	$order = new WC_Order( $order_id );
+
+	// do some stuff here
+	echo "
+		<script>
+	 	  alert('yup yup, $order->shipping_postcode');
+	 	  jQuery.get('https://maps.googleapis.com/maps/api/geocode/json?components=postal_code:$order->shipping_postcode&sensor=false&key=AIzaSyB6uJDp6hUSpuxe1gaEVIngd1dKXiM9cxU', function(data) {
+				alert(JSON.stringify(data));
+	 	  })
+		</script>";
+
+	// And then this
+	
+}

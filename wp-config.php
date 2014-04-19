@@ -22,7 +22,7 @@ define('DB_NAME', 'adva-wordpress');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password9');
+define('DB_PASSWORD', 'asdfasdf');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

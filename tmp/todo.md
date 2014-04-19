@@ -1,5 +1,7 @@
 Need to:
 
+  Open up all your bookmarks in Dev
+
 # Checkout Page:
 
     * Write code to perform a geocoding request when a user creates a 
