@@ -10,7 +10,7 @@
     {
        "results" : [
           {
-             "address_components" : [gl
+             "address_components" : [
                 {
                    "long_name" : "48059",
                    "short_name" : "48059",

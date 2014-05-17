@@ -7,6 +7,62 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "tmp/todo.md",
+			"settings":
+			{
+				"buffer_size": 1497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-config.php",
+			"settings":
+			{
+				"buffer_size": 3365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/twentyfourteen/functions.php",
+			"settings":
+			{
+				"buffer_size": 16872,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tmp/google_geocoding.md",
+			"settings":
+			{
+				"buffer_size": 2435,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tmp/test1.html",
+			"settings":
+			{
+				"buffer_size": 6099,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tmp/test2.html",
+			"settings":
+			{
+				"buffer_size": 53577,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tmp/test3.html",
+			"settings":
+			{
+				"buffer_size": 10496,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -73,6 +129,7 @@
 	"file_history":
 	[
 		"/Users/lane/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/lane/bin/wordpress-map/wp-content/plugins/woocommerce/i18n/languages/woocommerce-id_ID.po",
 		"/Users/lane/bin/tecportal/app/helpers/application_helper.rb",
 		"/Users/lane/bin/tecportal/app/value_objects/plugin_fmc/create_export.rb",
 		"/Users/lane/bin/tecportal/app/value_objects/plugin_service_master/export_to_aod.rb",
@@ -198,8 +255,7 @@
 		"/Users/lane/bin/tecportal/app/assets/stylesheets/application/footer.css.scss",
 		"/Users/lane/bin/tecportal/app/value_objects/plugin_service_master/load_workgroups.rb",
 		"/Users/lane/bin/tecportal/app/value_objects/plugin_service_master/load_employees.rb",
-		"/Users/lane/bin/tecportal/app/views/plugin_service_master/get_cust_list.html.erb",
-		"/Users/lane/bin/tecportal/tecportal.sublime-project"
+		"/Users/lane/bin/tecportal/app/views/plugin_service_master/get_cust_list.html.erb"
 	],
 	"find":
 	{
@@ -210,6 +266,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"~/bin/wordpress-map",
 			"~/bin/tecportal",
 			"~/Documents",
 			"/Users/lane/bin/",
@@ -231,6 +288,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"thankyou.php",
+			"lane\\-adva\\.local",
+			"lane-adva\\.local",
+			"lane-adva.local",
 			"rate",
 			"department",
 			"location",
@@ -354,11 +415,7 @@
 			"cust",
 			"c",
 			"cust_pattern",
-			"cust_pattern.day",
-			"cust_pattern\\.day",
-			"moment\\(cust_pattern\\.",
-			"moment(cust_pattern.",
-			"cust_filter"
+			"cust_pattern.day"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -504,23 +561,214 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "tmp/todo.md",
+					"settings":
+					{
+						"buffer_size": 1497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-config.php",
+					"settings":
+					{
+						"buffer_size": 3365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2087,
+								2087
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/twentyfourteen/functions.php",
+					"settings":
+					{
+						"buffer_size": 16872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1112,
+								1112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 3,
+					"file": "tmp/google_geocoding.md",
+					"settings":
+					{
+						"buffer_size": 2435,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1011,
+								1011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 4,
+					"file": "tmp/test1.html",
+					"settings":
+					{
+						"buffer_size": 6099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3260,
+								3260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1517.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "tmp/test2.html",
+					"settings":
+					{
+						"buffer_size": 53577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "tmp/test3.html",
+					"settings":
+					{
+						"buffer_size": 10496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9522,
+								9522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -549,28 +797,22 @@
 				1
 			],
 			[
-				0,
-				1,
-				1,
-				2
-			],
-			[
-				1,
-				1,
 				2,
-				2
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.489098116947,
+			0.33,
+			0.66,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.484126984127,
 			1.0
 		]
 	},
@@ -1114,16 +1356,20 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/Users/lane/bin/adva-store/adva.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 241.0,
+	"side_bar_width": 340.0,
 	"status_bar_visible": true
 }

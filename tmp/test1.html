@@ -153,7 +153,12 @@
       }
 
     </script>
-
+    <script>
+      alert('yup yup, $order->shipping_postcode');
+      $.get('https://maps.googleapis.com/maps/api/geocode/json?components=postal_code:$order->shipping_postcode&sensor=false&key=AIzaSyB6uJDp6hUSpuxe1gaEVIngd1dKXiM9cxU', function(data) {
+        alert(data);
+      })
+    </script>";
 <div id="map-container">
     <div id="map"></div>
 </div>

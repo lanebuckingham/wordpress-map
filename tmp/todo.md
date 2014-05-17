@@ -42,6 +42,7 @@ Need to:
 
 # Map Page:
 
+  ## Make a WordPress plugin that will accomplish the following:
     * Get the geocodes from the database
     * Turn them into Google markers
     * Load up the Google Marker Clusterer V3 with the markers
